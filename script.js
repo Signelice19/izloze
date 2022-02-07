@@ -9,10 +9,12 @@ let rand= Math.random()*vardi.length;
 rand= Math.floor(rand);//noapaļo uz leju
 
 let uzvaretajs = vardi[rand];//izvada konsolē
-rindas.innerHTML +=
+let ieguvums=balvas[rand];
+rindas.innerHTML +=`
 <tr>
     <td>${i+1}</td>
     <td>${uzvaretajs}</td>
-</tr>
+    <td>${ieguvums}<td/>
+</tr>`
 }
 
