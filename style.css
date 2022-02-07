@@ -1,17 +1,5 @@
-table, th, td{
-    border: 1px solid rgb(0, 0, 0);
-    width:50%;
-    background-color: bisque;
-}
-td{
-    width:25%;
-}
-thead{
-    text-align:center;
-    font-weight: bold;
-    font-size: 20px;
-}
-tr{
-    font-size: 20px;
-    text-align: center;
-}
+table, th, td {
+    border: 1px solid black;
+  }
+
+
